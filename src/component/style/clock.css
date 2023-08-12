@@ -1,0 +1,23 @@
+@media (max-width:992px) {
+    .clock-content h3 {
+        font-size: 1.1rem !important;
+    }
+
+    .clock-content h4 {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media (max-width:768px) {
+    .clockWrapper h5 {
+        font-size: .8rem !important;
+    }
+
+    .clockWrapper h1 {
+        font-size: .8rem !important;
+    }
+
+    .clock-data {
+        /* gap: 1rem !important; */
+    }
+}

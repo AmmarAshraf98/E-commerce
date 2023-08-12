@@ -1,0 +1,18 @@
+.auth_form {
+    padding: 40px;
+    background-color: var(--primary-color);
+}
+
+.auth_btn {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.create_account {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.auth_form input[type='file'] {
+    color: #fff;
+    cursor: pointer;
+}

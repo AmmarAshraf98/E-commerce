@@ -1,0 +1,34 @@
+.checkOut .form_group input {
+    outline: none;
+    border: 1px solid var(--card-bg-02);
+    border-radius: 5px;
+}
+
+.check_wrap {
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.check_wrap .check-cash {
+    margin-bottom: 20px;
+}
+
+.check_wrap .total-cash {
+    padding-top: 20px;
+    border-top: 1px solid #fff !important;
+}
+
+.check_wrap .checkout-btn {
+    background-color: #fff;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media (max-width:768px) {
+    .check_wrap .checkout-btn {
+        margin-top: 15px !important;
+    }
+}

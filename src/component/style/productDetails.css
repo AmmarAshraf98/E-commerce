@@ -1,0 +1,165 @@
+.details {
+    overflow: hidden;
+}
+
+.img_wrap {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+    transition: .3s;
+}
+
+.details_div {
+    margin-top: 70px;
+}
+
+.details_div h2 {
+    font-size: 1.8rem !important;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 10px !important;
+}
+
+@media (max-width:768px) {
+    .details_div h2 {
+        font-size: 1.4rem !important;
+        font-weight: 500;
+        color: var(--primary-color);
+        margin-bottom: 8px !important;
+    }
+
+    .details_div .price,
+    .details_div .category {
+        font-size: .9rem !important;
+        color: black !important;
+    }
+
+    .details_div .price span,
+    .details_div .category span {
+        color: var(--primary-color);
+        font-weight: 500 !important;
+    }
+
+
+    .description {
+        font-size: .8rem !important;
+    }
+
+
+
+}
+
+.details_div p span,
+.details_div .starts span {
+    color: coral;
+}
+
+.details_div p span {
+    font-weight: 500;
+}
+
+.details_div .price,
+.details_div .category {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.details_div .price span,
+.details_div .category span {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.details_div button {
+    color: #fff;
+}
+
+.active_tap {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.rev_text {
+    color: black;
+}
+
+.rev_rate {
+    color: coral;
+    font-weight: 600;
+}
+
+.review_form {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+@media(max-width:768px) {
+    .review_form {
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+
+}
+
+@media(max-width:576px) {
+    .shop-btn {
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    .rev_text {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+}
+
+.review_form h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 30px !important;
+}
+
+.form_group:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.form_group input,
+.form_group textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 6px 17px;
+}
+
+.form_group input:focus,
+.form_group textarea:focus {
+    outline: none;
+}
+
+.spans {
+    padding: 0 10px;
+}
+
+.spans span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.spans i {
+    color: coral;
+    cursor: pointer;
+}
+
+.form_btn {
+    color: #fff;
+}

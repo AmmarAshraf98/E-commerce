@@ -1,0 +1,23 @@
+.ComSection {
+    background: linear-gradient(#00000055, #00000055), url('../../assets/images/ccom\ \(3\).jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ComSection h2 {
+    font-weight: 600;
+    color: white;
+}
+
+@media(max-width:768px) {
+    .ComSection {
+        padding: 70px 0;
+    }
+
+    h2 {
+        font-size: 1.4rem !important;
+    }
+}

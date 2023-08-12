@@ -1,0 +1,231 @@
+.header {
+    max-width: 100vw;
+    /* overflow: hidden; */
+}
+
+.sticky-nav {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background-color: #fff;
+}
+
+.logo-name h1 {
+    font-size: 2.2rem !important;
+    font-weight: bold !important;
+    color: var(--primary-color) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.logo img {
+    width: 25px;
+    height: 25px;
+}
+
+.logo {
+    display: flex;
+    place-items: center;
+    gap: 5px;
+}
+
+.logo p {
+    color: #666 !important;
+    letter-spacing: -1.1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: var(--primary-color);
+}
+
+.menu {
+    display: flex;
+    gap: 2.5rem !important;
+}
+
+.link .link-item {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--primary-color) !important;
+}
+
+.link .nav_active {
+    color: var(--primary-color) !important;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-icon span i {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.nav-icon>span:not(:last-child) {
+    position: relative;
+    margin-right: 1.2rem;
+}
+
+.fav-icon .badg,
+.cart-icon .badg {
+    position: absolute;
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -25%;
+    right: -30%;
+    width: 15px;
+    height: 15px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    font-size: .7rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+.nav-icon span img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.mobile-menu i {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+}
+
+.row1 {
+    flex: 1;
+}
+
+.use-img {
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.use-img img {
+    max-width: 100% !important;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 2px;
+}
+
+.use-img .profile_actions .signning>a {
+    width: 100%;
+    text-align: center;
+    transition: .3s;
+}
+
+.use-img .profile_actions .signning>a:hover {
+    background-color: rgba(255, 0, 0, 0.603);
+}
+
+.use-img .profile_actions {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 98%;
+    width: 150px;
+    line-height: 30px;
+    z-index: 11;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.use-img .profile_actions .signning {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.show {
+    display: block !important;
+}
+
+.use-img .profile_actions span {
+    display: block;
+    text-align: center;
+    transition: .3s;
+
+}
+
+.use-img .profile_actions span:hover {
+    background-color: rgba(255, 0, 0, 0.603);
+}
+
+@media (max-width:768px) {
+    .link {
+        display: none;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .link .menu {
+        position: absolute;
+        background: #fff;
+        width: 200px;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        gap: 0rem !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* for showing the wrapper div which contain the bakground and the menu div  */
+    .active-menu {
+        display: block;
+    }
+
+    /* for showing the menu icon at mobile screen */
+    .mobile-menu {
+        display: block;
+    }
+
+    .logo-name h1 {
+        font-size: 1rem;
+    }
+
+    .nav-icon>span>i {
+        font-size: 1.2rem;
+    }
+
+    .nav-icon>span>img {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+
+    .header {
+        max-width: 100%;
+        height: 60px;
+        line-height: 60px;
+        padding-top: 5px;
+    }
+}

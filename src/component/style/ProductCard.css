@@ -1,0 +1,74 @@
+.card {
+    border: none !important;
+    cursor: pointer;
+    overflow: hidden !important;
+    box-shadow: -1px 1px 11px 7px #ddddddab;
+}
+
+@media (max-width:768px) {
+    .card {
+        /* padding: 10px; */
+        margin: 10px;
+    }
+}
+
+.cardImg {
+    aspect-ratio: 1/1;
+    object-fit: contain !important;
+    width: 100%;
+
+}
+
+.card .title {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card .txt {
+    font-size: .9rem;
+    padding: 0px 8px !important;
+}
+
+.card .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .body .Money {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card .body .icon {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+@media(max-width:992px) {
+    .title a {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width:768px) {
+    .title a {
+        font-size: 1rem;
+    }
+
+    .body .Money {
+        font-size: 1rem !important;
+    }
+
+    .card .body .icon {
+        font-size: 1rem !important;
+    }
+}

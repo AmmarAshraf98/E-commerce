@@ -1,0 +1,39 @@
+.cart_table .table_img {
+    width: 80px !important;
+    height: 40px !important;
+    margin: auto !important;
+    object-fit: cover;
+}
+
+.operations i {
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+@media(max-width:768px) {
+    .cart_table .table_img {
+        width: 50px !important;
+        height: 50px !important;
+        object-fit: contain;
+    }
+
+
+
+    .price {
+        font-size: .8rem !important;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+    .operations i {
+        padding: 3px;
+        margin-right: 5px;
+    }
+}

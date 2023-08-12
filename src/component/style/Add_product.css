@@ -1,0 +1,10 @@
+Form span {
+    color: rgb(165, 2, 2);
+    font-weight: 500;
+}
+
+
+.category_select {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}

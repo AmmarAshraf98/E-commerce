@@ -1,0 +1,132 @@
+.land {
+    background-color: var(--hero-bg);
+}
+
+.section-content {
+    padding-top: 45px;
+}
+
+.section-content h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+    margin: 20px 0 !important;
+}
+
+.section-content p {
+    color: var(--primary-color);
+    line-height: 28px;
+    margin: 0;
+}
+
+.section-content p:not(:last-child) {
+    font-weight: 500;
+}
+
+.section-content .shop-btn a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.shop-btn {
+    background-color: var(--primary-color);
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.section-img img {
+    width: 100%;
+}
+
+/* //-------------------------------------------------- */
+
+.timer-count {
+    background-color: var(--primary-color);
+    height: 300px;
+}
+
+@media (max-width:768px) {
+    .timer-count {
+        overflow: hidden;
+    }
+
+    .center-img {
+        text-align: center !important;
+    }
+
+    .store-btn {
+        padding: 6px 16px;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        font-size: .9rem !important;
+        margin-top: 20px !important;
+    }
+
+}
+
+@media (max-width:578px) {
+
+    .clock-col {
+        text-align: center;
+    }
+
+    .timer-count {
+        height: fit-content;
+    }
+
+    .center-img {
+        display: none;
+    }
+
+}
+
+.timer-count img {
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: cover;
+}
+
+
+.store-btn {
+    background-color: #fff;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+@media (max-width:992px) {
+    .section-content h2 {
+        font-size: 2rem !important;
+    }
+
+}
+
+@media (max-width:768px) {
+    .section-content h2 {
+        font-size: 1.6rem !important;
+    }
+
+    .section-content p {
+        font-size: .9rem;
+    }
+
+    .section-content button {
+        font-size: .9rem;
+    }
+
+    .section-title {
+        font-size: 1.4rem !important;
+    }
+}
+
+@media (max-width:768px) {
+    .section-content {
+        padding-top: 0;
+        margin-bottom: 30px;
+    }
+}
