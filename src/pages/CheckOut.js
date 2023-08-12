@@ -10,6 +10,7 @@ function CheckOut() {
     window.scrollTo(0, 0);
   }, []);
 //dispatch on store
+
   const dispatch = useDispatch();
   const t_quantity = useSelector((state) => state.cart.t_quantity);
   const totalAmount = useSelector((state) => state.cart.totalAmount);
